@@ -16,7 +16,7 @@ permalink: /
 SA4S aims to research and develop state of art techniques, methods and tools in various areas of software engineering and programming languages. SA4S researchers collaborate with commercial private sector organizations, R & D organizations, and other academic institutes to advance the state of the art and provide software solutions. Prof. Karthik Vaidyanathan has vast teaching and research experience in and outside India. 
 
 
-<!-- <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -31,10 +31,10 @@ SA4S aims to research and develop state of art techniques, methods and tools in 
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}images/slider7001400/bestposteraward.jpeg" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/QPI_Rh.jpg" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}images/slider7001400/ICSA-1.jpeg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/SmartTipSide.jpg" alt="Slide 2" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/SaphireSTM2.jpg" alt="Slide 3" />
@@ -57,30 +57,30 @@ SA4S aims to research and develop state of art techniques, methods and tools in 
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div> -->
+</div>
 
 Our research group is dedicated to addressing critical challenges in the architecture of AI and ML-enabled systems and developing innovative ML-based approaches for self-adaptive software systems. Our research is applied to a wide domain of software architecture. We focus on these main areas:
 
-    Machine Learning for Software Architecture (ML4SA):
-        Objective: To devise machine learning-based self-adaptation approaches.
-        Impact: Enhances systems' ability to continuously adapt and improve their architecture at run-time. This is particularly crucial for microservice-based systems, robotic systems, and generic Cyber-Physical Systems (CPS).
+  Machine Learning for Software Architecture (ML4SA):
+      Objective: To devise machine learning-based self-adaptation approaches.
+      Impact: Enhances systems' ability to continuously adapt and improve their architecture at run-time. This is particularly crucial for microservice-based systems, robotic systems, and generic Cyber-Physical Systems (CPS).
 
-    Software Architecture for Machine Learning (SA4ML):
-        Objective: To improve the architecting practices for AI/ML-enabled software systems.
-        Impact: Tackles the unique challenges of ML-enabled systems, such as the probabilistic nature of outputs, dependence on data quality, model drift, and intensive computational requirements. We aim to develop architectural patterns and tactics to improve maintainability and increase the success rate of these systems in production.
+  Software Architecture for Machine Learning (SA4ML):
+      Objective: To improve the architecting practices for AI/ML-enabled software systems.
+      Impact: Tackles the unique challenges of ML-enabled systems, such as the probabilistic nature of outputs, dependence on data quality, model drift, and intensive computational requirements. We aim to develop architectural patterns and tactics to improve maintainability and increase the success rate of these systems in production.
 
-    Software Architecture for Scalable Systems :
-        Objective: To develop approaches that address the challenges in architecting easily scalble systems.
-        Impact: Focuses on the complexities of scalable development, security, and sustainablity. We strive to create hyper-scalable architectures and model-driven frameworks to support the future needs for systems.
+  Software Architecture for Scalable Systems :
+      Objective: To develop approaches that address the challenges in architecting easily scalble systems.
+      Impact: Focuses on the complexities of scalable development, security, and sustainablity. We strive to create hyper-scalable architectures and model-driven frameworks to support the future needs for systems.
 
-    Software Architecture for Internet of Things (IoT):
+  Software Architecture for Internet of Things (IoT):
+      Objective: To develop approaches that address the challenges in architecting large-scale IoT systems.
+      Impact: Focuses on the complexities of IoT development, including heterogeneity, interoperability, security, and scalability. We strive to create hyper-scalable architectures and model-driven frameworks to support the pervasive nature of IoT systems.
 
-    Objective: To develop approaches that address the challenges in architecting large-scale IoT systems.
-    Impact: Focuses on the complexities of IoT development, including heterogeneity, interoperability, security, and scalability. We strive to create hyper-scalable architectures and model-driven frameworks to support the pervasive nature of IoT systems.
 
-    Green Software:
-        Objective: To develop architecture-centric approaches for creating green software systems.
-        Impact: Aims to reduce the global carbon footprint of software systems. With ICT expected to consume significant of the world's electricity by 2025, our research is vital in developing sustainable, energy-efficient software solutions.
+  Green Software:
+      Objective: To develop architecture-centric approaches for creating green software systems.
+      Impact: Aims to reduce the global carbon footprint of software systems. With ICT expected to consume significant of the world's electricity by 2025, our research is vital in developing sustainable, energy-efficient software solutions.
 
 Our research has significant real-world implications, enhancing the adaptability, maintainability, and sustainability of software systems across various domains. Join us in exploring and solving the next generation of software architecture challenges.
 <!-- 
