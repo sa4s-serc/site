@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The Allan Lab
-email: your-email@domain.com
+title: SA4S Group
+email: karthik.vaidhyanathan@iiit.ac.in # TODO: What email
 description: > # this means to ignore newlines until "baseurl:"
-  Website of the AllanLab.
+  Website of the SA4S Group of SERC, IIITH.
 baseurl: ""
 url: ""
 
@@ -28,7 +28,6 @@ excerpt_separator: "\n\n"
 incremental: false
 
 
-
 # Markdown Processing
 kramdown:
   input: GFM
@@ -40,3 +39,15 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+
+plugins:
+  - jekyll-scholar
+
+scholar:
+  style: chicago-note-bibliography
+  source: "_bibliography"
+  bibliography: ./*.bib
+  # sort_by: year, month
+  # order: descending, descending
+  group_by: year
+  group_order: descending
