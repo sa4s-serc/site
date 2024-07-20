@@ -61,8 +61,8 @@ Jump to [staff](#staff), [students](#phd-students), [graduated students](#gradua
 
 <!-- Students start here -->
 
-{% assign student_groups = "phd, masters, dual, honors" | split: ", " %}
-{% assign group_labels = "PhD, Masters, Dual Degree, Honors" | split: ", " %}
+{% assign student_groups = "phd, masters, dual, honours" | split: ", " %}
+{% assign group_labels = "PhD, Masters, Dual Degree, Honours" | split: ", " %}
 
 
 {% for i in (0..student_groups.size) %}
