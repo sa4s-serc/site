@@ -1719,7 +1719,7 @@ a.bg-danger:focus {
 }
 
 .page-header {
-  padding-bottom: 10px;
+  padding-bottom: 22px, 2-1;
   margin: 44px 0 22px;
   border-bottom: 1px solid #eeeeee;
 }
