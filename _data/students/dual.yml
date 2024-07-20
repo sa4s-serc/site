@@ -9,25 +9,11 @@
 #  education4:
 
 - name: Adyansh Kakran
-  photo: rock.jpg
+  photo: adyansh.jpeg
   info: Undergraduate Researcher, started in May 2023
   email: adyansh.kakran@research.iiit.ac.in
   number_educ: 1
   education1: Best Poster Award - ICSA 2024
-  alumni: False
-
-- name: Arya Marda
-  photo: rock.jpg
-  info: Undergraduate Researcher, started in May 2023
-  email: arya.marda@students.iiit.ac.in
-  number_educ: 0
-  alumni: False
-
-- name: Meghana Tedla
-  photo: rock.jpg
-  info: Undergraduate Researcher, started in May 2023
-  email: meghana.tedla@students.iiit.ac.in
-  number_educ: 0
   alumni: False
 
 - name: Prakhar Jain
@@ -37,65 +23,36 @@
   number_educ: 0
   alumni: False
 
-- name: Shrikara A
-  photo: rock.jpg
-  info: Undergraduate Researcher, started in May 2023
-  email: shrikara.a@students.iiit.ac.in
-  number_educ: 1
-  education1: Best Poster Award - ICSA 2024
-  alumni: False
-
 - name: Amey Karan
-  photo: rock.jpg
+  photo: amey.jpeg
   info: Undergraduate Researcher, started in May 2024
   email: amey.karan@research.iiit.ac.in
   number_educ: 0
   alumni: False
 
 - name: Aneesh Sambu
-  photo: rock.jpg
+  photo: aneesh_sambu.jpeg
   info: Undergraduate Researcher, started in May 2024
   email: sambu.aneesh@research.iiit.ac.in
   number_educ: 0
   alumni: False
 
 - name: Bassam Adnan
-  photo: rock.jpg
+  photo: bassam_adnan.jpeg
   info: Undergraduate Researcher, started in May 2024
   email: bassam.adnan@research.iiit.ac.in
   number_educ: 0
   alumni: False
 
-- name: Divyansh Pandey
-  photo: rock.jpg
-  info: Undergraduate Researcher, started in May 2024
-  email: divyansh.pandey@students.iiit.ac.in
-  number_educ: 0
-  alumni: False
-
-- name: Maddireddy Kritin
-  photo: rock.jpg
-  info: Undergraduate Researcher, started in May 2024
-  email: kritin.maddireddy@students.iiit.ac.in
-  number_educ: 0
-  alumni: False
-
-- name: Kotekal Methukula Santhosh
-  photo: rock.jpg
-  info: Undergraduate Researcher, started in May 2024
-  email: santhosh.km@students.iiit.ac.in
-  number_educ: 0
-  alumni: False
-
 - name: Prakhar Singhal
-  photo: rock.jpg
+  photo: prakhar_singhal.jpg
   info: Undergraduate Researcher, started in May 2024
   email: prakhar.singhal@research.iiit.ac.in
   number_educ: 0
   alumni: False
 
 - name: Sathvika Miryala
-  photo: rock.jpg
+  photo: sathvika.jpg
   info: Undergraduate Researcher, started in May 2024
   email: miryala.sathvika@research.iiit.ac.in
   number_educ: 0
@@ -109,16 +66,8 @@
   alumni: False
 
 - name: Shaunak Biswas
-  photo: rock.jpg
+  photo: shaunak.jpg
   info: Undergraduate Researcher, started in May 2024
   email: shaunak.biswas@research.iiit.ac.in
   number_educ: 0
   alumni: False
-
-- name: Vyakhya Gupta
-  photo: rock.jpg
-  info: Undergraduate Researcher, started in May 2024
-  email: vyakhya.gupta@students.iiit.ac.in
-  number_educ: 0
-  alumni: False
-

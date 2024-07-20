@@ -31,8 +31,8 @@
   alumni: False
 
 
-- name: "This could be you !"
-  photo: rock.jpg
-  info: See <a href="http://www.allanlab.org/vacancies">openings</a> for more info     # TODO: update this
-  email: milan.allan@gmail.com
-  number_educ: 0
+# - name: "This could be you !"
+#   photo: rock.jpg
+#   info: See <a href="http://www.allanlab.org/vacancies">openings</a> for more info     # TODO: update this
+#   email: milan.allan@gmail.com
+#   number_educ: 0
