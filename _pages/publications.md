@@ -1,57 +1,83 @@
 ---
-title: "Allan Lab - Publications"
-layout: gridlay
-excerpt: "Allan Lab -- Publications."
+title: "SA4S - Publications"
+layout: default
+excerpt: "SA4S -- Publications."
 sitemap: false
 permalink: /publications/
 ---
 
+# Current projects
 
-# Publications
+We are currently working on the following projects:
 
-## Group highlights
+{% assign num_proj = 0 %}
+{% for proj in site.data.projects %}
+{% assign proj_num = num_proj | modulo: 2 %}
+{% if proj_num == 0 %}
 
-**At the end of this page, you can find the [full list of publications and patents](#full-list-of-publications). All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Allan%2C+M+P).**
-
-{% assign number_printed = 0 %}
-{% for publi in site.data.publist %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if publi.highlight == 1 %}
-
-{% if even_odd == 0 %}
-<div class="row">
+  <div class="row"> 
 {% endif %}
 
 <div class="col-sm-6 clearfix">
- <div class="well">
-  <pubtit>{{ publi.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
-  <p>{{ publi.description }}</p>
-  <p><em>{{ publi.authors }}</em></p>
-  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
-  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
-  <p> {{ publi.news2 }}</p>
- </div>
+<h3>{{ proj.title }}</h3>
+<p>{{ proj.description }}</p>
+
+{% if proj.url %}
+
+<p><a href="{{ proj.url }}">More details</a></p>
+{% endif %}
+
+{% if proj.members %}
+
+<h4>Members</h4>
+<ul>
+{% for member in proj.members %}
+<li>{{ member.name }} {% if member.role %}({{ member.role }}){% endif %}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if proj.funding %}
+
+<h4>Funding</h4>
+<p>{{ proj.funding }}</p>
+{% endif %}
+
+{% if proj.duration %}
+
+<h4>Duration</h4>
+<p>{{ proj.duration }}</p>
+{% endif %}
+
 </div>
 
-{% assign number_printed = number_printed | plus: 1 %}
+{% assign num_proj = num_proj | plus: 1 %}
+{% if proj_num == 1 %}
 
-{% if even_odd == 1 %}
 </div>
 {% endif %}
 
-{% endif %}
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
 </div>
-{% endif %}
 
-<p> &nbsp; </p>
+# Publications
 
+We've published in many reputed conferences and journals such as
 
+<div style="text-align: center; justify-content: center; display: flex; flex-wrap: wrap; margin: 0 auto;">
+<p>{% assign num_conf_jour = 1 %}
+{% assign len_conf_jour = site.data.conflist.len %}
+{% for conf_jour in site.data.conflist.list %}
+{% if conf_jour.logo %}<img src="{{ site.url }}{{ site.baseurl }}/images/confpic/{{ conf_jour.logo }}" style="max-height: 90px; margin: 0px" />{% else %}
+{{ conf_jour.name }}{% endif %}{% assign num_conf_jour = num_conf_jour | plus: 1 %}{% if num_conf_jour < len_conf_jour %}, {% elsif num_conf_jour == len_conf_jour %} and {% endif %}{% endfor %}.</p>
+</div>
+
+## Our Recent Publications
+
+{% bibliography  %}
+
+<!--
 ## Patents
 <em>Milan P Allan, S Gröblacher, RA Norte, M Leeuwenhoek</em><br />Novel atomic force microscopy probes with phononic crystals<br /> PCT/NL20-20/050797 (2020)
 
@@ -63,5 +89,4 @@ permalink: /publications/
 
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-
-{% endfor %}
+{% endfor %} -->
