@@ -1,9 +1,9 @@
 ---
-title: "SA4S - Publications"
+title: "SA4S - Work"
 layout: default
-excerpt: "SA4S -- Publications."
+excerpt: "SA4S -- Work"
 sitemap: false
-permalink: /publications/
+permalink: /work/
 ---
 
 # Current projects
