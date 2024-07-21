@@ -10,7 +10,7 @@ title: SA4S Group
 email: karthik.vaidhyanathan@iiit.ac.in # TODO: What email
 description: > # this means to ignore newlines until "baseurl:"
   Website of the SA4S Group of SERC, IIITH.
-baseurl: ""
+baseurl: "https://sa4s-serc.github.io/site"
 url: ""
 
 include:
