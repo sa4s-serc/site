@@ -61,7 +61,7 @@ We are currently working on the following projects:
 
 </div>
 
-<!-- # Publications
+# Publications
 
 We've published in many reputed conferences and journals such as
 
@@ -89,4 +89,4 @@ We've published in many reputed conferences and journals such as
 
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-{% endfor %} --> -->
+{% endfor %} -->
