@@ -14,7 +14,7 @@ We've published in many reputed conferences and journals such as
 <p>{% assign num_conf_jour = 1 %}
 {% assign len_conf_jour = site.data.conflist.len %}
 {% for conf_jour in site.data.conflist.list %}
-{% if conf_jour.logo %}<img src="{{ site.url }}{{ site.baseurl }}/images/confpic/{{ conf_jour.logo }}" style="max-height: 90px; margin: 0px" />{% else %}
+{% if conf_jour.logo %}<img src="{{ site.url }}{{ site.baseurl }}/images/confpic/{{ conf_jour.logo }}" style="max-height: 70px; margin: 0px" />{% else %}
 {{ conf_jour.name }}{% endif %}{% assign num_conf_jour = num_conf_jour | plus: 1 %}{% if num_conf_jour < len_conf_jour %}, {% elsif num_conf_jour == len_conf_jour %} and {% endif %}{% endfor %}.</p>
 </div>
 
