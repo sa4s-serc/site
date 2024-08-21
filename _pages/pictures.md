@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Pictures"
+title: "SA4S Group - Pictures"
 layout: piclay
-excerpt: "Allan Lab -- Pictures"
+excerpt: "SA4S at SERC, IIIT Hyderabad -- Pictures"
 permalink: /pictures/
 ---
 <!-- 
