@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Research"
+title: "SA4S Group - Research"
 layout: default
-excerpt: "Allan Lab -- Research"
+excerpt: "SA4S Group -- Research"
 sitemap: false
 permalink: /research/
 ---
