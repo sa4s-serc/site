@@ -12,8 +12,10 @@ permalink: /vacancies
 
 However, if you really have the passion and talent to work with us, please fill out the form below. We will contact you if a suitable position opens up.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScmG9IoHf6YBjFZDQoZK3YQgEMdV9bGIk2S3HJzyZd3MR_XWg/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0" style="display: block; margin: 0 auto; margin-bottom: 20px">Loading…</iframe>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScmG9IoHf6YBjFZDQoZK3YQgEMdV9bGIk2S3HJzyZd3MR_XWg/viewform" class="btn btn--info">Apply here</a>
 
+<!-- Empty box of 80% height -->
+<div style="height: 50vh"></div>
 
 <!-- We are looking for new group members with passion, talent, and grit! -->
 
