@@ -28,7 +28,7 @@ SA4S aims to research and develop state of art techniques, methods and tools in 
             <img src="{{ site.url }}{{ site.baseurl }}/images/pic/ICSA-1.jpeg" alt="Slide 2" />
         </div> -->
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/pic/freshers_sa4s.jpg" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/pic/freshers2k24_sa4s.jpg" alt="Slide 3" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
