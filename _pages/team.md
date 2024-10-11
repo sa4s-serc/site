@@ -12,7 +12,6 @@ permalink: /team/
 
 Jump to [staff](#staff), [students](#phd-students), [graduated students](#graduated-students), [administrative support](#administrative-support)
 
-
 ## Faculty
 
 {% assign number_printed = 0 %}
@@ -58,12 +57,10 @@ Jump to [staff](#staff), [students](#phd-students), [graduated students](#gradua
 
 <!-- Faculty ends here -->
 
-
 <!-- Students start here -->
 
 {% assign student_groups = "phd, masters, dual, honours" | split: ", " %}
 {% assign group_labels = "PhD, Masters, Dual Degree, Honours" | split: ", " %}
-
 
 {% for i in (0..student_groups.size) %}
 {% assign group = student_groups[i] %}
@@ -135,7 +132,55 @@ Jump to [staff](#staff), [students](#phd-students), [graduated students](#gradua
 
 {% endfor %}
 
+## Research Engineer
 
+{% assign number_printed = 0 %}
+{% for member in site.data.research_engineer %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="120px" style="float: left" />
+  <h4>{{ member.name }}</h4>
+  <i>Role: {{ member.info }}</i>
+  <ul style="overflow: hidden">
+  {% if member.number_educ >= 1 %}
+    <li> {{ member.education1 }} </li>
+  {% endif %}
+  {% if member.number_educ >= 2 %}
+    <li> {{ member.education2 }} </li>
+  {% endif %}
+  {% if member.number_educ >= 3 %}
+    <li> {{ member.education3 }} </li>
+  {% endif %}
+  {% if member.number_educ >= 4 %}
+    <li> {{ member.education4 }} </li>
+  {% endif %}
+  {% if member.number_educ == 5 %}
+    <li> {{ member.education5 }} </li>
+  {% endif %}
+  </ul>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+
+</div>
+{% endif %}
 
 ## Graduated students
 
@@ -154,7 +199,21 @@ Jump to [staff](#staff), [students](#phd-students), [graduated students](#gradua
   <h4>{{ member.name }}</h4>
   <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
   <ul style="overflow: hidden">
-
+  {% if member.number_educ >= 1 %}
+    <li> {{ member.education1 }} </li>
+  {% endif %}
+  {% if member.number_educ >= 2 %}
+    <li> {{ member.education2 }} </li>
+  {% endif %}
+  {% if member.number_educ >= 3 %}
+    <li> {{ member.education3 }} </li>
+  {% endif %}
+  {% if member.number_educ >= 4 %}
+    <li> {{ member.education4 }} </li>
+  {% endif %}
+  {% if member.number_educ == 5 %}
+    <li> {{ member.education5 }} </li>
+  {% endif %}
   </ul>
 </div>
 

@@ -1,10 +1,11 @@
 - name: Shubham Kulkarni
   photo: shubham.png
-  info: First student to graduate from the group
+  info: Worked on Adaptive MLOPs from 2022 - 2024
   email: shubham.kulkarni@research.iiit.ac.in
-  number_educ: 0
+  number_educ: 1
+  education1: First student to graduate from the group
   alumni: True
-  duration: Worked on Adaptive MLOPs from 2022 - 2024
+  duration: 2022 - 2024
 
 
 # - name: Gijsbert Verdoes
