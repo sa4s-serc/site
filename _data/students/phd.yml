@@ -10,23 +10,23 @@
 
 
 - name: Rudra Dhar
-  photo: rock.jpg
+  photo: male.png
   info: PhD CSE, Batch of Monsoon 2022
   email: rudra.dhar@research.iiit.ac.in
   number_educ: 0
   alumni: False
 
 - name: Akhila Matathammal
-  photo: rock.jpg
+  photo: female.png
   info: PhD, started in July 2023
   email: akhila.matathammal@research.iiit.ac.in
   number_educ: 0
   alumni: False
 
-- name: GVVS Raju
-  photo: rock.jpg
-  info: 
-  email: gottumukkala.sa@research.iiit.ac.in
+- name: Sabyasachi Mukhopadhyay
+  photo: male.png
+  info: PhD CSE (Part-time), Co-advised with Dr. Manish Shrivastava
+  email: 
   number_educ: 0
   alumni: False
 

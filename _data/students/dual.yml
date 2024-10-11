@@ -1,5 +1,5 @@
 #- name:
-#  photo: rock.jpg
+#  photo: 
 #  info:
 #  email:
 #  number_educ:
@@ -17,7 +17,7 @@
   alumni: False
 
 - name: Prakhar Jain
-  photo: rock.jpg
+  photo: male.png
   info: Undergraduate Researcher, started in May 2023
   email: prakhar.jain@research.iiit.ac.in
   number_educ: 0
@@ -59,7 +59,7 @@
   alumni: False
 
 - name: Shailender Goyal
-  photo: rock.jpg
+  photo: male.png
   info: Undergraduate Researcher, started in May 2024
   email: shailender.goyal@research.iiit.ac.in
   number_educ: 0
