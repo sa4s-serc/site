@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-SA4S aims to research and develop state of art techniques, methods and tools in various areas of software engineering and programming languages. SA4S researchers collaborate with commercial private sector organizations, R & D organizations, and other academic institutes to advance the state of the art and provide software solutions. Prof. Karthik Vaidyanathan has vast teaching and research experience in and outside India.
+SA4S research group, SERC works at the intersection of software architecture and machine learning, focusing on building sustainable and self-adaptive software systems. We explore how software architecture principles can be combined with advanced machine learning techniques to tackle the challenges of designing resilient, energy-efficient, and adaptive systems. Our vision is to create systems that are not only functional but also sustainable and adaptable in an ever-changing world. 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover">
     <!-- Menu -->
@@ -41,7 +41,7 @@ SA4S aims to research and develop state of art techniques, methods and tools in 
   </a>
 </div>
 
-Our research group addresses critical challenges in AI and ML-enabled systems architecture, focusing on self-adaptive software solutions. We specialize in several key areas: developing machine learning-based self-adaptation approaches to enhance system adaptability, crucial for microservices, robotics, and Cyber-Physical Systems (CPS); improving architecting practices to handle the unique challenges of ML-enabled systems, ensuring maintainability and production success; creating hyper-scalable architectures that address development, security, and sustainability; and addressing the complexities of IoT development, including heterogeneity, interoperability, security, and scalability. Additionally, we focus on developing energy-efficient architectures to reduce the carbon footprint of software systems. Our work significantly enhances the adaptability, maintainability, and sustainability of software systems across various domains.
+We develop methodologies, frameworks, and tools that allow software to autonomously adjust its behavior to meet evolving requirements and contexts, with a strong emphasis on energy efficiency and resource optimization. By leveraging machine learning, we aim to enable software systems to learn from their environment and experiences, ensuring continuous improvement and effective adaptation. We also focus on developing approaches for building sustainable AI-enabled systems, ensuring that the benefits of AI are realized in a resource-conscious and environmentally friendly way. Our work aims to create solutions that respond intelligently to changes in their environment, allowing software to continuously optimize its performance, energy use, and reliability. We strive to push the boundaries of how software systems are designed and evolved, envisioning a future where software not only meets functional requirements but also contributes positively to societal and environmental sustainability.
 
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/serc.png" style="width: 250px">
