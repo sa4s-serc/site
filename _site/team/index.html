@@ -29,7 +29,7 @@
 			</button>
 
 			<a class="navbar-brand" href="/" style="display: flex; align-items: center;">
-				<img src="/images/logopic/sa4s.png" alt="SA4S @ SERC → IIIT Hyderabad" width="30" height="30" style="margin-right: 10px;">
+				<img src="/images/logopic/sa4s.png" alt="SA4S @ SERC → IIIT Hyderabad" width="max-width" height="60" style="margin-right: 10px; padding-top: 20px;">
 				<span>SA4S @ SERC → IIIT Hyderabad</span>
 			</a>
 
@@ -39,8 +39,9 @@
 				<li><a href="/">Home</a></li>
 				<li><a href="/team">Team</a></li>
 				<li><a href="/vacancies">Vacancies</a></li>
-				<li><a href="/work">Our Work</a></li>
-				<li><a href="/publications">Our Publications</a></li>
+				<li><a href="/work">Work</a></li>
+				<li><a href="/publications">Publications</a></li>
+				<li><a href="/blog"> Blogs</a></li>
 				<li><a href="/research">Research</a></li>
 				<li><a href="/pictures">Gallery</a></li>
 			</ul>
@@ -782,42 +783,86 @@
       </div>
     </div>
 
-    <div id="footer" class="panel">
-  <div class="panel-footer">
-	<div class="container-fluid">
-	  <div class="row">
-		<div class="col-sm-4">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Other head elements -->
+  <style>
+    /* Ensure the footer sticks to the bottom of the page */
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
 
-		  <p>&copy SA4S Group. Site made with <a href="https://jekyllrb.com">Jekyll</a>;  <a href="/aboutwebsite.html">Link for the Template </a>Credits - Allan Lab.</p>
-              <p>We are part of the <a href="https://serc.iiit.ac.in">Software Engineering Research Centre</a> at the<a href="https://www.iiit.ac.in/"> International Institute of Information Technology (IIIT)</a>.</p>
+    #content-wrapper {
+      flex: 1;
+    }
 
+    #footer {
+      background-color: #f8f8f8;
+      padding: 2px;
+	  height:auto;
+      text-align: center;
+      border-top: 1px solid #e0e0e0;
+      margin-top: auto; /* Pushes the footer to the bottom */
+    }
 
-		   <p>  </p><p>
+    .panel-footer {
+      background-color: #f8f8f8;
+    }
 
+    .container-fluid {
+      max-width: 1200px;
+      margin: auto;
+    }
 
-		</div>
-		<!-- <div class="col-sm-4">
-		  Funding:<br />
-      - StG and CoG from the <a href="https://erc.europa.eu">ERC</a><br />
-		  - <a href="http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme">Vidi </a> and <a href='https://www.fom.nl/en/news/press-releases/2016/11/18/28634/'>Projectruimte</a> grants from <a href="http://www.nwo.nl">NWO</a> <br />
-		  - <a href="https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront">Frontier of Nanosciences</a>, a gravity program from <a href="http://www.nwo.nl">NWO</a>
-		</div> -->
-		<div class="col-sm-4">
-			Location: <br />
-			SA4S @ Software Engineering Research Center (SERC) <br />
-			5th Floor, T-HUB Building,<br /> 
-			IIIT Hyderabad Campus, <br />
-			Gachibowli, Hyderabad - 500032<br />
-		  
+    .col-sm-4 {
+      padding: 10px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Your content here -->
+
+  <div id="footer" class="panel">
+    <div class="panel-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4">
+            <p>&copy; SA4S Group. Site made with <a href="https://jekyllrb.com">Jekyll</a>;  
+              <a href="/aboutwebsite.html">Link for the Template </a>Credits - Allan Lab.</p>
+            <p>We are part of the <a href="https://serc.iiit.ac.in">Software Engineering Research Centre</a> at the 
+              <a href="https://www.iiit.ac.in/">International Institute of Information Technology (IIIT)</a>.</p>
+          </div>
+
+          <div class="col-sm-4">
+            Location: <br />
+            SA4S @ Software Engineering Research Center (SERC) <br />
+            5th Floor, T-HUB Building, <br /> 
+            IIIT Hyderabad Campus, <br />
+            Gachibowli, Hyderabad - 500032<br />
             <a href="https://maps.app.goo.gl/TTrCvKg7xhDkrjGZ7">Google Maps</a>
-		</div>
-	  </div>
-	</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
 
 
   </body>

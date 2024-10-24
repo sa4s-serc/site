@@ -1,0 +1,7 @@
+topics:
+  - name: "AI"
+    slug: "ai"
+  - name: "Machine Learning"
+    slug: "machine-learning"
+  - name: "IoT"
+    slug: "iot"
