@@ -1,11 +1,17 @@
+- date: "16 December 2024"
+  headline: "Paper accepted at ICSA 2025: [LLMs for Generation of Architectural Components: An Exploratory Empirical Study in the Serverless World](/papers/ICSA_2025_Serverless_LLM.pdf). Authors: Shrikara Arun and Meghana Tedla"
+
+- date: "4 December 2024"
+  headline: "Prakhar Jain presented their work about POSEIDON at ICSOC 2024, Tunisia ![image](/images/pic/prakhar_icsoc.jpeg){:class='img-responsive' :alt='Prakhar Jain at ICSOC 2024'}"
+
 - date: "22 Sept 2024"
-  headline: "Paper Accepted at ICSOC 2025. POSEIDON: Efficient Function Placement at the Edge using Deep Reinforcement Learning. Authors - Prakhar Jain, Prakhar Singhal and Divyansh Pandey."
+  headline: "Paper Accepted at ICSOC 2024. POSEIDON: Efficient Function Placement at the Edge using Deep Reinforcement Learning. Authors - Prakhar Jain, Prakhar Singhal and Divyansh Pandey."
 
 - date: "5 July 2024"
   headline: "Our students Arya, Meghana, Shrikara, Prakhar, Adyansh and Raghav were presented with the research awards of the institute for the academic year 2023-24."
 
 - date: "7 June 2024"
-  headline: "Best Poster Award @ ICSA! - Hiya Bhatt, Shrikara A, Adyansh Kakran. ![image](/images/pic/icsa24_best_poster.jpeg){:class='img-responsive' }"
+  headline: "Best Poster Award @ ICSA! - Hiya Bhatt, Shrikara A, Adyansh Kakran. ![image](/images/pic/icsa24_best_poster.jpeg){:class='img-responsive' :alt='ICSA 2024 Best Poster Award'}"
 
 - date: "May 2024"
   headline: "UKIERI-SPARC funded DigIT - Digital Twins for Intelligent Transportation Systems Project."

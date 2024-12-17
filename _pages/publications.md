@@ -20,6 +20,8 @@ We've published in many reputed conferences and journals such as
 
 ## Our Recent Publications
 
+Arun, Shrikara, Tedla, Meghana, and Karthik Vaidhyanathan. "LLMs for Generation of Architectural Components: An Exploratory Empirical Study in the Serverless World" accepted at the 2025 IEEE International Conference on Software Architecture (ICSA 2025). Read the [preprint]({{ site.url }}{{ site.baseurl }}/papers/ICSA_2025_Serverless_LLM.pdf).
+
 {% bibliography  %}
 
 <!--
