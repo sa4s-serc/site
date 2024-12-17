@@ -25,3 +25,11 @@
 - name: "MontyCloud"
   url: "https://montycloud.com"
   logo: "montycloud.png"
+
+- name: "Qualcomm"
+  url: "https://www.qualcomm.com"
+  logo: "qualcomm.png"
+
+- name: "Lloyds Banking Group"
+  url: "https://www.lloydsbank.com"
+  logo: "lloyds-bank.jpg"
