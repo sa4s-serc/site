@@ -14,4 +14,4 @@ Steps to deploy:
 ```bash
 jekyll build JEKYLL_ENV=production 
 ```
-4. Push the changes to the repository
+4. Push the changes (including the `_site` folder) to the `gh-pages` branch
